@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c279c09679ac54c9754ce38eda8d6a, type: 3}
+  m_Name: ApplicationConfiguration
+  m_EditorClassIdentifier: 
+  EntryScene:
+    sceneGuid: 5d532a4943d890d4cb7ddbd86c6fe68c
+  MenuScene:
+    sceneGuid: c07df0ffd8a82734eac0d09877e8d8b6
+  ExperienceConfigurations:
+  - {fileID: 11400000, guid: f1d456d2fd484cb488e83d28ee7d75a0, type: 2}
+  ManualInitialization: 0
+  OfflineMode: 1
