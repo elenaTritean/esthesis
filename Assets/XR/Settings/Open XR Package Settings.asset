@@ -57,6 +57,7 @@ MonoBehaviour:
   - {fileID: 2076758583975130757}
   - {fileID: -4449100384281254003}
   - {fileID: 1893735972830916184}
+  - {fileID: 6416202701525698124}
   - {fileID: 8334328322404973507}
   - {fileID: 6295462320934528927}
   m_renderMode: 1
@@ -155,7 +156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_enabled: 0
   nameUi: Mock Runtime
-  version: 0.0.1
+  version: 0.0.2
   featureIdInternal: com.unity.openxr.feature.mockruntime
   openxrExtensionStrings: XR_UNITY_null_gfx
   company: Unity
@@ -291,17 +292,16 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -1655275823298728663}
   - {fileID: 2146785820155705547}
   - {fileID: -7264691586886075068}
   - {fileID: 8438047569675384013}
   - {fileID: -3625344190750619588}
   - {fileID: 2869630597863462785}
   - {fileID: -8766487724127181649}
-  - {fileID: -1462820823142278121}
-  - {fileID: 2212502406106712970}
-  - {fileID: 6100241266560141182}
   - {fileID: -431550872767045796}
+  - {fileID: -1462820823142278121}
+  - {fileID: 6100241266560141182}
+  - {fileID: 2212502406106712970}
   m_renderMode: 1
   m_depthSubmissionMode: 0
 --- !u!114 &6100241266560141182
@@ -348,6 +348,26 @@ MonoBehaviour:
   required: 0
   cacheSize: 1048576
   perThreadCacheSize: 51200
+--- !u!114 &6416202701525698124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef793c31862a37448e907829482ef80, type: 3}
+  m_Name: OculusQuestFeature Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Oculus Quest Support
+  version: 1.0.0
+  featureIdInternal: com.unity.openxr.feature.oculusquest
+  openxrExtensionStrings: XR_OCULUS_android_initialize_loader
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &7291371786221139843
 MonoBehaviour:
   m_ObjectHideFlags: 0
