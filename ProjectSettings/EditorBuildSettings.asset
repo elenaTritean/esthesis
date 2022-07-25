@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Packages/com.phenomenalviborg.mucosdk/Runtime/Framework/Shared/S_Entry.unity
     guid: 56e02c62280735f498837d0300d094b1
   - enabled: 1
-    path: Packages/com.phenomenalviborg.mucosdk/Runtime/Framework/Shared/S_Menu.unity
-    guid: a86ed2feecd8a41498e8dff9b45195b5
-  - enabled: 1
     path: Assets/Esthesis/S_Esthesis.unity
     guid: c49bab0e495f8d64cbce9dbf876d99fc
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bc94da46fa42f214785b4f09e6c83497, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7e34ade3a2c55f24894b093dc6044669, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 485f309ba5198024eadb5a529caf3538, type: 2}
